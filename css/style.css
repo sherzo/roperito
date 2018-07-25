@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'Lato';
+  src: 	url('../fonts/Lato-Regular.ttf') format('truetype'), 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Light.ttf') format('truetype');
+	font-weight: lighter;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'Titillium';
+  src: 	url('../fonts/Titillium-Regular.otf') format('opentype'), 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Titillium';
+	src: url('../fonts/Titillium-Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Titillium';
+	src: url('../fonts/Titillium-Light.otf') format('opentype');
+	font-weight: lighter;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Titillium';
+	src: url('../fonts/Titillium-Thin.otf') format('opentype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+
+/*
+*			Nav Search
+*/
+
+.nav-roperito {
+	font-family: 'Titillium';
+	background: #464346; /* Gris */
+	color: white !important;
+	padding: 10px;
+}
+
+.input-search {
+	display: flex;
+	border: 1px solid #f8436e; /*Fuscia*/
+	align-items: center;
+	border-radius: 25px;
+}
+
+.input-search input {
+	font-family: 'Titillium' !important;
+	font-weight: 100;
+	background: #464346;
+	color: white;
+	border: none;
+	border-radius: 30px;
+}
+
+.input-search input:focus {
+	box-shadow: none;
+}
+
+.icon-search {
+	background: #f8436e;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.icon-search img {
+	margin: 5px;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;	
+}
+
+.links a {
+	color: white;
+	font-size: 13px !important;
+	font-weight: 100;
+}
+
+.links img {
+	display: inline-block;
+}
+
+.btn-sale {
+	font-family: 'Lato';
+	font-weight: lighter;
+	background: white;
+	color: #ea6464 !important;
+	border: 1px solid #ea6464;
+	border-radius: 12px;
+	padding: 5px 20px;
+}
+
+/*
+*		Navbar
+*/
+
+.navbar {
+	font-family: 'Titillium';
+	font-size: 16px;
+	margin-bottom: 0;
+	border: none;
+	background: white;
+	font-weight: 100;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;  
+}
+
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+
+.pr-4 {
+	padding-right: 4%;
+}
+
+.envio a {
+	padding-bottom: 0 !important; 
+	padding-top: 10px !important;
+}
+
+.whatsapp {
+	padding-top: 4px;
+	margin-left: 10%;
+}
+
+/*
+*		Carousel
+*/
+
+.item img {
+	width: 100%;
+}
