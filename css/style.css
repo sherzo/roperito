@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Lato-Regular';
   src: 	url('../fonts/Lato-Regular.ttf') format('truetype'), 
   font-weight: normal;
   font-style: normal;
@@ -185,7 +185,7 @@
 
 .title-slide {
 	margin-left: 70px;
-	font-family: 'Lato' !important;
+	font-family: 'Lato-Regular' !important;
 	font-size: 60px;
 	position: absolute;
 	z-index: 1 !important;
