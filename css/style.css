@@ -1,56 +1,62 @@
 @font-face {
   font-family: 'Lato';
   src: 	url('../fonts/Lato-Regular.ttf') format('truetype'), 
-	font-weight: normal;
-	font-style: normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Lato';
+	font-family: 'Lato-Bold';
 	src: url('../fonts/Lato-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Lato';
+	font-family: 'Lato-Light';
 	src: url('../fonts/Lato-Light.ttf') format('truetype');
-	font-weight: lighter;
-	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Titillium';
+  font-family: 'Titillium-Regular';
   src: 	url('../fonts/Titillium-Regular.otf') format('opentype'), 
-	font-weight: normal;
-	font-style: normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Titillium';
+	font-family: 'Titillium-Bold';
 	src: url('../fonts/Titillium-Bold.otf') format('opentype');
-	font-weight: bold;
-	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Titillium';
+	font-family: 'Titillium-Light';
 	src: url('../fonts/Titillium-Light.otf') format('opentype');
-	font-weight: lighter;
-	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Titillium';
+	font-family: 'Titillium-Thin';
 	src: url('../fonts/Titillium-Thin.otf') format('opentype');
-	font-weight: 100;
-	font-style: normal;
 }
 
 .mt-10 {
 	margin-top: 10px;
 }
 
+.mb-4 {
+	margin-bottom: 4%;
+}
+
+.mr-4 {
+	margin-right: 5%;
+}
+
+.ml-4 {
+	margin-left: 5%;
+}
+
+
+.p-0 {
+	padding: 0;
+}
 
 /*
 *			Nav Search
@@ -71,8 +77,7 @@
 }
 
 .input-search input {
-	font-family: 'Titillium' !important;
-	font-weight: 100;
+	font-family: 'Titillium-Thin' !important;
 	background: #464346;
 	color: white;
 	border: none;
@@ -100,9 +105,9 @@
 }
 
 .links a {
+	font-family: 'Titillium-Thin';
 	color: white;
 	font-size: 13px !important;
-	font-weight: 100;
 }
 
 .links img {
@@ -110,8 +115,7 @@
 }
 
 .btn-sale {
-	font-family: 'Lato';
-	font-weight: lighter;
+	font-family: 'Lato-Light';
 	background: white;
 	color: #ea6464 !important;
 	border: 1px solid #ea6464;
@@ -124,7 +128,7 @@
 */
 
 .navbar {
-	font-family: 'Titillium';
+	font-family: 'Titillium-Thin';
 	font-size: 16px;
 	margin-bottom: 0;
 	border: none;
@@ -156,10 +160,221 @@
 	margin-left: 10%;
 }
 
+.btn-like {
+	font-family: 'Arial' !important;
+	font-size: 10px;
+	font-weight: bold;
+	color: white !important;
+	background: blue;
+	padding: 1px 3px !important;
+	margin-top: 15px;
+}
+
+.btn-like:hover {
+	background: blue !important;
+	color: white !important;
+}
+
 /*
-*		Carousel
+*		Slide
 */
 
 .item img {
 	width: 100%;
+}
+
+.title-slide {
+	margin-left: 70px;
+	font-family: 'Lato' !important;
+	font-size: 60px;
+	position: absolute;
+	z-index: 1 !important;
+	top: 70px;
+}
+
+.firts-text {
+	display: block;
+}
+
+.desc {
+	font-weight: bold;
+	color: #ea6464;
+}
+
+/*
+*		Products
+*/
+
+.text-msg {
+	font-family: 'Titillium-Light';
+	font-size: 21px;
+	margin-top: 3vh;
+}
+
+
+.filters .col-md-2 {
+	padding: 0 5px !important;
+}
+
+.filters select {
+	font-family: 'Lato-Light';
+	border-radius: 0;
+	font-size: 16px;
+	border: 0.2px solid #dcd8d8;
+}
+
+/*
+*		Card Products
+*/
+
+.products .col-md-4, .products .col-sm-4, .products .col-lg-3 {	
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+
+.card {
+	border: 1px solid #dcd8d8;
+	padding: 2px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.mark {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	background: #464346;
+	color: white;
+	padding: 0 10%;
+	font-family: 'Titillium-Regular' !important;
+	font-size: 16px;
+}
+
+.card-body {
+	text-align: center;
+}
+
+.card-title {
+	font-family: 'Titillium-Bold';
+	font-size: 21px;
+}
+
+.talla {
+	font-family: 'Titillium-Thin';
+	font-size: 15px;
+}
+
+.price .troke {
+	font-family: 'Titillium-Thin';
+	font-size: 22px;
+	text-decoration: line-through;
+}
+
+.price .real {
+	font-family: 'Titillium-Regular';
+	font-size: 28px;
+	color: #ea6464;
+}
+
+hr {
+	border-top: 1px solid #292727;
+	width: 98%;
+}
+
+/*
+*	Card Propetary
+*/
+
+.propetary {
+	margin: 15px 3px;
+}
+
+.propetary .info  {
+	text-align: left;
+	font-family: 'Titillium-Thin';
+	font-size: 16px;
+}
+
+.stars img {
+	width: 12px;
+}
+
+.propetary .avatar {
+	padding: 2px !important;
+}
+
+.favorite {
+	margin-top: 15px;
+	padding: 0;
+}
+
+/*
+*	Card Comment
+*/
+
+.comment .avatar {
+	padding:  0 !important;
+	margin-left: 3px;
+}
+
+.last {
+	text-align: left;
+	font-family: 'Titillium-Regular';
+	font-size: 16px;
+	color: #ea6464;
+	padding-left: 4px;
+}
+
+.comment .name {
+	font-family: 'Titillium-Bold';
+	font-size: 13px;
+}
+
+.comment .description {
+	font-family: 'Titillium-Thin';
+	font-size: 12px;
+}
+
+.comment a.all-view {
+	font-family: 'Titillium-Regular';
+	font-size: 14px;
+	color: #ea6464;
+	margin-right: 5px;
+}
+
+.send-comment {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Titillium-Thin';
+	font-size: 12px;
+}
+
+.send-comment input {
+	padding: 4px;
+	border: 1px solid #b9b5b5;
+}
+
+.send-comment button {
+	background: #ea6464;
+	color: white;
+	border-radius: 0;
+	padding: 4px
+}
+
+/*
+*	Pagination
+*/
+
+.pagination {
+	border-radius: 0 !important;
+}
+
+.pagination > .active a {
+	background-color: #ea6464 !important;
+    border-color: #ea6464 !important;
+    color: white !important;
+}
+
+.pagination a {
+	color: #ea6464 !important;
 }
