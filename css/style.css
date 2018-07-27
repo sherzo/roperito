@@ -1,8 +1,6 @@
 @font-face {
-  font-family: 'Lato-Regular';
-  src: 	url('../fonts/Lato-Regular.ttf') format('truetype'), 
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Lato';
+  src: 	url('../fonts/Lato-Regular.ttf') format('truetype'); 
 }
 
 @font-face {
@@ -16,8 +14,8 @@
 }
 
 @font-face {
-  font-family: 'Titillium-Regular';
-  src: 	url('../fonts/Titillium-Regular.otf') format('opentype'), 
+  font-family: 'Titillium';
+  src: 	url('../fonts/Titillium-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -53,6 +51,9 @@
 	margin-left: 5%;
 }
 
+.mt-5 {
+	margin-top: 5%;
+}
 
 .p-0 {
 	padding: 0;
@@ -184,8 +185,8 @@
 }
 
 .title-slide {
+	font-family: 'Lato' !important;
 	margin-left: 70px;
-	font-family: 'Lato-Regular' !important;
 	font-size: 60px;
 	position: absolute;
 	z-index: 1 !important;
@@ -246,7 +247,7 @@
 	background: #464346;
 	color: white;
 	padding: 0 10%;
-	font-family: 'Titillium-Regular' !important;
+	font-family: 'Titillium' !important;
 	font-size: 16px;
 }
 
@@ -271,7 +272,7 @@
 }
 
 .price .real {
-	font-family: 'Titillium-Regular';
+	font-family: 'Titillium';
 	font-size: 28px;
 	color: #ea6464;
 }
@@ -319,7 +320,7 @@ hr {
 
 .last {
 	text-align: left;
-	font-family: 'Titillium-Regular';
+	font-family: 'Titillium';
 	font-size: 16px;
 	color: #ea6464;
 	padding-left: 4px;
@@ -336,7 +337,7 @@ hr {
 }
 
 .comment a.all-view {
-	font-family: 'Titillium-Regular';
+	font-family: 'Titillium';
 	font-size: 14px;
 	color: #ea6464;
 	margin-right: 5px;
@@ -377,4 +378,82 @@ hr {
 
 .pagination a {
 	color: #ea6464 !important;
+}
+
+.services {
+	margin-top: 5%;
+	background: #dadada;
+	padding-bottom: 5%;
+}
+
+.title-services {
+	text-align: center;
+	font-family: 'Titillium';
+	font-size: 36px;
+	margin-bottom: 10%;
+}
+
+.subtitle-services {
+	font-family: 'Titillium-Bold';
+	font-size: 13px;
+}
+
+.content-service {
+	font-family: 'Lato-Light';
+	font-size: 13px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+footer {
+	background: #464346;
+	padding: 30px 4% ;
+	color: white;
+}
+
+footer li {
+	text-decoration: none;
+	list-style: none;
+}
+
+footer li a {
+	color: white !important;
+	font-family: 'Lato-Light';
+	font-size: 14px;
+}
+
+footer .description {
+	font-family: 'Lato-Light';
+	font-size: 14px;
+	line-height: 25px;
+}
+.subtitle {
+	font-family: 'Lato-Bold';
+	font-size: 14px;
+}
+
+.help {
+	margin-left: 40px;
+}
+
+.serv {
+	font-family: 'Lato-Light';
+	font-size: 13px;
+	color: #f8436e;
+}
+
+.icons img {
+	width: 50px;
+}
+
+.icons {
+	padding: 6vh 8vh 3vh 8vh;
+}
+
+.desc-app {
+	margin-bottom: 20px;
+}
+
+.apps {
+	padding: 0 4px;
 }
