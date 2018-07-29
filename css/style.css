@@ -690,6 +690,12 @@ footer .description {
 .card-line .description {
 	font-size: 15px;
 	font-family: 'Titillium-Light';	
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.icon-notify img{
+	margin-top: 10px;
 }
 
 .card-line .username {
@@ -833,4 +839,28 @@ footer .description {
 
 .box h3 {
 	margin-top: 0;
+}
+
+.notification {
+	padding: 10px;
+}
+
+.notification .avatar {
+	padding-right: 0 !important;
+}
+
+.notification .avatar img {
+	width: 38px;
+	margin-right: 10px;
+}
+
+.data {
+	padding-left: 0;
+}
+
+.delete {
+	position: absolute;
+	top:4px;
+	right: 0;
+	background: #f8436e;
 }
