@@ -797,22 +797,40 @@ footer .description {
 	color: #f8436e;
 }
 
-.credit {
+.credit, .debit {
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
 	color: white;
 	font-weight: bold;
 	font-size: 14px;
+}
+
+.debit {
+	background: red;
+	font-size: 13px;
+}
+
+.credit {
 	background: green;
 }
 
 .box .bon {
 	font-size: 14px;
 	font-family: 'Titillium-Bold';
+	margin-bottom: 0;
+}
+
+.carterita.boxes .box {
+	padding-bottom: 0;
 }
 
 .box .bon-time {
 	font-family: 'Titillium-Light';
 	font-size: 14px;
+	color:#f8436e;
+}
+
+.box h3 {
+	margin-top: 0;
 }
