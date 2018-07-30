@@ -194,9 +194,9 @@
 }
 
 .title-slide {
-	font-family: 'Lato' !important;
+	font-family: 'Lato-Light' !important;
 	margin-left: 70px;
-	font-size: 60px;
+	font-size: 80px;
 	position: absolute;
 	z-index: 1 !important;
 	top: 70px;
@@ -218,7 +218,7 @@
 .text-msg {
 	font-family: 'Titillium-Light';
 	font-size: 21px;
-	margin-top: 3vh;
+	margin-top: 8vh;
 }
 
 
@@ -335,13 +335,18 @@ hr {
 	padding-left: 4px;
 }
 
+.info a  {
+	color: black;
+}
+
 .comment .name {
 	font-family: 'Titillium-Bold';
 	font-size: 13px;
+	color: black;
 }
 
 .comment .description {
-	font-family: 'Titillium-Thin';
+	font-family: 'Titillium-Light';
 	font-size: 12px;
 }
 
@@ -359,17 +364,24 @@ hr {
 	font-size: 12px;
 }
 
+.send-comment .col-md-8 {
+	padding-right: 4px;
+}
+
 .send-comment input {
 	padding: 4px;
 	border: 1px solid #b9b5b5;
+	height: 39px !important;
+	font-size: 16px;
 }
 
 .send-comment button {
 	background: #ea6464;
 	color: white;
 	border-radius: 0;
-	padding: 4px
+	padding: 10px
 }
+
 
 /*
 *	Pagination
@@ -383,6 +395,7 @@ hr {
 	background-color: #ea6464 !important;
     border-color: #ea6464 !important;
     color: white !important;
+    font-family: 'Titillium-Light';
 }
 
 .pagination a {
@@ -396,19 +409,21 @@ hr {
 }
 
 .title-services {
+	margin-top: 10vh;
 	text-align: center;
 	font-family: 'Titillium';
 	font-size: 36px;
 	margin-bottom: 10%;
+	line-height: 50px;
 }
 
 .subtitle-services {
 	font-family: 'Titillium-Bold';
-	font-size: 13px;
+	font-size: 16px;
 }
 
 .content-service {
-	font-family: 'Lato-Light';
+	font-family: 'Lato-Regular';
 	font-size: 13px;
 	padding-left: 60px;
 	padding-right: 60px;
@@ -577,11 +592,11 @@ footer .description {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: 'Titillium-Bold';
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .selected-top {
-	border-top: 5px solid #f8436e;
+	border-bottom: 5px solid #f8436e;
 	
 }
 
@@ -659,15 +674,21 @@ footer .description {
 	padding-right: 30px;
 }
 
+.contact input {
+	height: 39px;
+}
 .contact input, .contact textarea {
 	border-radius: 0;
 }
 
 .btn-pink-block {
+	margin-left: 10px;
+	margin-right: 10px;
 	background: #f8436e;
 	color:white;
 	border-radius: 0;
 	display: block;
+	font-size: 15px;
 	margin: 0 5px 15px 5px;
 	font-family: 'Titillium-Bold';
 }
@@ -675,6 +696,15 @@ footer .description {
 	font-family: 'Titillium-Light';
 	font-size: 13px;
 	margin-left: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.last.client {
+	margin-left: 8px;
+}
+.pb-5 {
+	padding-bottom: 5%;
 }
 
 .card-line {
@@ -690,7 +720,7 @@ footer .description {
 .card-line .description {
 	font-size: 15px;
 	font-family: 'Titillium-Light';	
-	margin-top: 5px;
+	margin-top: 12px;
 	margin-bottom: 0;
 }
 
@@ -698,9 +728,13 @@ footer .description {
 	margin-top: 10px;
 }
 
+.card-line a {
+	color: #333;
+}
+
 .card-line .username {
 	font-family: 'Titillium-Thin';
-	font-size: 16px;
+	font-size: 17px;
 }
 
 .card-line .info {
@@ -784,8 +818,12 @@ footer .description {
 .table-desc-t {
 	font-family: 'Titillium-Bold';
 	font-size: 15px;
+
 }
 
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-top: 0;
+}
 .table-descripcion {
 	font-family: 'Titillium-Light';
 	font-size: 15px;
@@ -795,6 +833,7 @@ footer .description {
 .table.table-border > thead > tr > th {
 	padding-bottom: 60px !important;
 	border-bottom: 0 !important;
+	padding-top: 20px !important;
 }
 
 .venta {
@@ -863,4 +902,11 @@ footer .description {
 	top:4px;
 	right: 0;
 	background: #f8436e;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
