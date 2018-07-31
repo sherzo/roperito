@@ -22,6 +22,10 @@ $(document).ready(function($) {
 	console.log('cl2');
 	$('.drowSubmenu').click(function() {
 		console.log('cl');
-		$(this).find('ul').toggleClass('activeSub');
+		$(this).parent().find('ul.dropdown').toggleClass('activeSub');
+	});
+	$('.drowSubmenu2').click(function() {
+		console.log('cl');
+		$(this).parent().find('ul.dropdown2').toggleClass('activeSub2');
 	});
 });

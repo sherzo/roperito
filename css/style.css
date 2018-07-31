@@ -1040,21 +1040,7 @@ footer .description {
     box-shadow: none;
 }
 
-.drowSubmenu>.dropdown{
-	display: none;
-}
 
-.activeSub{
-	display: block !important;
-}
-
-.drowSubmenu>.dropdown>li {
-    list-style: none;
-}
-
-.drowSubmenu>.dropdown>li>a {
-    text-decoration: none;
-}
 
 .dropPrecio {
     padding: 12px;
@@ -1102,4 +1088,52 @@ span.desc {
 
 .price {
     margin-top: 25px;
+}
+
+
+
+
+/* NEW */
+
+
+.drowSubmenuParent>.dropdown{
+	display: none;
+}
+
+.activeSub{
+	display: block !important;
+}
+
+.drowSubmenuParent>.dropdown>li {
+    list-style: none;
+}
+
+.drowSubmenuParent>.dropdown>li>a {
+    text-decoration: none;
+}
+
+
+
+.drowSubmenuParent2>.dropdown2{
+	display: none;
+}
+
+.drowSubmenuParent2>.dropdown2.activeSub2{
+	display: block !important;
+}
+
+.drowSubmenuParent2>.dropdown2>li {
+    list-style: none;
+}
+
+.drowSubmenuParent2>.dropdown2>li>a {
+    text-decoration: none;
+}
+
+ul.nav.navbar-nav.categorias>li>ul {
+    min-width: 200px;
+}
+
+.drowSubmenuParent2>.dropdown2 {
+    padding-left: 15px;
 }
