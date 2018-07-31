@@ -37,12 +37,39 @@
                 </div>
             </div>
           
-            <div class="col-md-4 text-center mt-10 links">
-              <a href="#">
-                <img src="icons/ico-login-03.svg" alt="" width="20" height="20"  class="img-responsive">
-                Ingresar / Resgistrarte
-              </a>
-              <a href="#" class="btn btn-sale">Vender</a>
+            <div class="col-md-4 text-center mt-10 user-logued links">
+              <div class="col-md-4 ">
+                  <a href="#" class="btn btn-sale">Vender</a>
+              </div>
+              <div class="col-md-2">
+                  <img src="icons/profile-admin.png" alt="" class="avatar">
+              </div>
+              <div class="col-md-4 text-left" style="padding-left: 0;">
+                <div class="infor">
+                  <a href="" class="username "
+                   data-toggle="dropdown" 
+                   role="button" 
+                   aria-haspopup="true" 
+                   aria-expanded="false">
+                    Administrador
+                    <span class="caret"></span>
+                  </a>
+                  <div class="price">$ 20.00</div>
+                  <ul class="dropdown-menu">
+                    <li class="text-center shop">
+                      <div class="badge">1</div>
+                      <div class="div">
+                        <img src="icons/ico-shopping.png" alt="">
+                      </div>
+                    </li>
+                    <li><a href="#">Mi perfil</a></li>
+                    <li><a href="#">Mi ropero</a></li>
+                    <li><a href="#">Mis compras</a></li>
+                    <li><a href="#">Mis Ventas</a></li>
+                    <li><a href="#">Cerrar Sesión</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
         </div>
     </div>
@@ -53,7 +80,7 @@
             Navbar
   _____________________________________________ -->
 
-  <nav class="navbar navbar-default">
+ <nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -67,7 +94,7 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navtop">
+        <ul class="nav navbar-nav">
           <li class="pull-left pr-4"><a href="#">Ropers</a></li>
           <li class="pull-left pr-4"><a href="#">Blog</a></li>
           <li class="dropdown pull-left pr-4">
@@ -104,101 +131,6 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-
-  <!-- ________________________________________
-
-            Navbar categorias
-  _____________________________________________ -->
-  
-  <nav class="navbar nav-categories">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav categorias" style="color: black;">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Ropa</a></li>
-              <li><a href="#">Zapatos</a></li>
-              <li><a href="#">Accesorios</a></li>
-              <li><a href="#">Belleza</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Marca <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Zara</a></li>
-              <li><a href="#">Guess</a></li>
-              <li><a href="#">Chaqueta cuero</a></li>
-              <li><a href="#">Florsheim</a></li>
-              <li><a href="#">Apes</a></li>
-              <li><a href="#">Pepez</a></li>
-              <li><a href="#">Adidas</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Color <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Blanco</a></li>
-              <li><a href="#">Negro</a></li>
-              <li><a href="#">Azul</a></li>
-              <li><a href="#">Rojo</a></li>
-              <li><a href="#">Verde</a></li>
-              <li><a href="#">Amarillo</a></li>
-              <li><a href="#">Rosa</a></li>
-              <li><a href="#">Beige</a></li>
-              <li><a href="#">Cafe</a></li>
-              <li><a href="#">Gris</a></li>
-              <li><a href="#">Morado</a></li>
-              <li><a href="#">Plateado</a></li>
-              <li><a href="#">Dorado</a></li>
-              <li><a href="#">Multicolor</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Estado <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Nueva Equiteta</a></li>
-              <li><a href="#">Nueva Sin Equiteta</a></li>
-              <li><a href="#">Pesta una vez</a></li>
-              <li><a href="#">En perfecto estado</a></li>
-              <li><a href="#">Usada</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talla <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Talla 1</a></li>
-              <li><a href="#">Talla 2</a></li>
-              <li><a href="#">Tall 3</a></li>
-            </ul>
-          </li>
-            <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Precio <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Desde</a></li>
-              <li>
-                <input type="text" class="form-control input-xs">
-              </li>
-              <li><a href="#">Hasta</a></li>
-                <input type="text" class="form-control input-xs">
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav> 
-
-
-  
   <!-- ________________________________________
 
             Slider
@@ -1029,8 +961,9 @@
         fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
-  <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
   <script src="js/bootstrap.js"></script>
-  <script src="js/main.js"></script>
 </body>
 </html

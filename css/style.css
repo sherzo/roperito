@@ -70,12 +70,108 @@
 /*
 *			Nav Search
 */
+.nav.navbar-nav {
+	padding-left: 4.5%;
+	padding-right: 4.5%;
+}
 
 .nav-roperito {
 	font-family: 'Titillium';
 	background: #464346; /* Gris */
 	color: white !important;
 	padding: 10px;
+}
+
+
+/*
+* User logued
+*/
+
+.user-logued {
+	margin-top: 0;
+}
+
+.user-logued .avatar {
+	max-width: 60px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+
+.shop .conten .badge {
+	position: absolute;
+	right: 35%;
+	background: #f8436e;
+}
+
+
+.infor .shop {
+	border-bottom: 0;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.infor .price {
+	color: #f8436e;
+}
+
+.infor .profile {
+	border-radius: 50%;
+	background: 
+}
+
+.infor .dropdown-menu a {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.infor .dropdown-menu li {
+	border-bottom: 1px solid #eee;
+}
+
+.logued .profile img {
+	max-width: 50px;
+}
+
+.dropdown-menu hr {
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ 	border-top: 1px solid #eee;
+}
+
+.logued .dropdown-menu > li > a {
+	font-family: 'Titillium-Light';
+	font-size: 14px;
+}
+
+.infor .dropdown-menu {
+	border-radius: 0;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    top: 130% !important;
+    left: -78px !important;
+}
+
+.logued .username {
+	font-family: 'Titillium-Bold';
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.logued .price {
+	font-family: 'Titillium-Light';
+	font-size: 13px;
+	text-align: left;
+	margin-left: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+ .nav-categories .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+.nav-categorias ul.dropdown-menu li a {
+	color: black !important;
 }
 
 .input-search {
@@ -151,7 +247,7 @@
   text-align: center;  
 }
 
-.navbar-nav > li {
+.navbar-nav.navtop > li {
   float: none;
   display: inline-block;
 }
@@ -183,6 +279,29 @@
 .btn-like:hover {
 	background: blue !important;
 	color: white !important;
+}
+
+/*
+*	Navbar categorias
+*/
+
+.nav-categories {
+	background: #f8436e;
+}
+
+.nav-categories li a {
+	color: white !important;
+}
+
+.nav.categorias > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #f51c50 !important;
+}
+
+
+
+.nav-categorias .dropdown-menu li a {
+	color: black !important;
 }
 
 /*
