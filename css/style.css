@@ -316,6 +316,7 @@
 	font-family: 'Lato-Light' !important;
 	margin-left: 70px;
 	font-size: 80px;
+	line-height: 95px;
 	position: absolute;
 	z-index: 1 !important;
 	top: 70px;
@@ -327,7 +328,7 @@
 
 .desc {
 	font-weight: bold;
-	color: #ea6464;
+	color: #f8436e;
 }
 
 /*
@@ -495,10 +496,14 @@ hr {
 }
 
 .send-comment button {
-	background: #ea6464;
+	background: #f8436e;
 	color: white;
 	border-radius: 0;
-	padding: 10px
+	padding: 10px;
+	width: 100%;
+	height: 39px;
+	font-size: 14px;
+	padding-top: 8px;
 }
 
 
@@ -542,7 +547,7 @@ hr {
 }
 
 .content-service {
-	font-family: 'Lato-Regular';
+	font-family: 'Lato';
 	font-size: 13px;
 	padding-left: 60px;
 	padding-right: 60px;
@@ -599,6 +604,11 @@ footer .description {
 
 .apps {
 	padding: 0 4px;
+}
+
+.pagination > .active a {
+    background-color: #f8436e !important;
+    border-color: #f8436e !important;
 }
 
 /*
@@ -1028,4 +1038,68 @@ footer .description {
     outline: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+.drowSubmenu>.dropdown{
+	display: none;
+}
+
+.activeSub{
+	display: block !important;
+}
+
+.drowSubmenu>.dropdown>li {
+    list-style: none;
+}
+
+.drowSubmenu>.dropdown>li>a {
+    text-decoration: none;
+}
+
+.dropPrecio {
+    padding: 12px;
+    text-align: left;
+}
+
+.dropPrecio>li>a {
+    padding-left: 5px;
+}
+
+.dropPrecio>li>a {
+    margin-top: 10px;
+    background: transparent !important;
+}
+
+input.form-control.input-xs.pnkbtn {
+    background: #f8436e;
+    color: white;
+    margin-top: 15px;
+    border: 0;
+}
+
+.fb-like.fb_iframe_widget {
+    margin-top: 14px;
+}
+
+span.desc {
+    font-family: 'Lato-Bold';
+}
+
+.talla {
+    float: left;
+    padding-left: 10px;
+}
+
+.category {
+    float: right;
+    padding-right: 10px;
+}
+
+.category>a {
+    color: #464346;
+    font-family: 'Titillium-Bold';
+}
+
+.price {
+    margin-top: 25px;
 }

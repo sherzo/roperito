@@ -16,3 +16,12 @@ $(document).ready(function() {
 	  }
 	});
 })
+
+
+$(document).ready(function($) {
+	console.log('cl2');
+	$('.drowSubmenu').click(function() {
+		console.log('cl');
+		$(this).find('ul').toggleClass('activeSub');
+	});
+});
